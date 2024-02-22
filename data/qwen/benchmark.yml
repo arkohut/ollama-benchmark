@@ -1,0 +1,18 @@
+# Author: Jason Chuang
+# License: MIT
+version: 1.0
+modeltypes:
+  - type: qwen
+    models:
+      - model: qwen:4b-chat
+      - model: qwen:7b-chat
+      - model: qwen:14b-chat
+      - model: qwen:72b-chat
+    prompts:
+      - prompt: 解释一下人工智能并给出它目前的应用领域.
+        keywords:
+      - prompt: 机器学习和人工智能是什么关系？
+        keywords:
+      - prompt: 今年是中国农历新年，给我一个新年的祝福语。
+        keywords:
+  

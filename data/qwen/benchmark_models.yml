@@ -1,0 +1,6 @@
+version: 1.0
+models:
+  - model: qwen:4b-chat
+  - model: qwen:7b-chat
+  - model: qwen:14b-chat
+  - model: qwen:72b-chat
